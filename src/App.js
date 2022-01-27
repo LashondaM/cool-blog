@@ -5,6 +5,8 @@ const title = 'Welcome to the new blog';
 const likes = 50;
 // const person = {name: 'shonnie', age: 22}; can do bools and objects and try to output it like that
 
+const link = "http://www.google.com";
+
   return (
     <div className="App">
       <div className="content">
@@ -18,7 +20,7 @@ const likes = 50;
         <p>{ [1,2,3,4,5] }</p>
         <p>{ Math.random() * 10 }</p>
 
-        
+        <a href={link} target="_blank">Google</a>
       </div>
     </div>
   );
